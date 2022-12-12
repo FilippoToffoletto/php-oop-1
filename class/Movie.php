@@ -19,5 +19,8 @@ class Movie{
         $this->exit= $_exit;
         $this->boxOffice= $_boxOffice;
     }
+    public function get_movie_details(){
+        return "Film: $this->title, Anno Uscita: $this->exit";
+    }
 }
 ?>

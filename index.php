@@ -21,5 +21,9 @@ buon ponte! :sciatore:
 include './class/Movie.php';
 
 $ironMan = new Movie("IronMan","140 mil","2008", "585 mil");
+$ironMan2 = new Movie("IronMan 2","200 mil","2010", "623 mil");
 
 var_dump($ironMan);
+var_dump($ironMan2);
+
+var_dump($ironMan->get_movie_details());
